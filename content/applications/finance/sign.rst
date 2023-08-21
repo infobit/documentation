@@ -117,7 +117,6 @@ Go to :menuselection:`Sign --> Configuration --> Roles`. Click in the :guilabel:
 Authentication Step` column for the role, and select :guilabel:`Unique Code Via SMS`.
 
 .. image:: sign/sms-verification.png
-   :align: center
    :alt: Add a hash to your document
 
 Go to the document to sign, add the field for which the SMS verification is required, for example
@@ -129,7 +128,6 @@ The person signing the document fills in the :guilabel:`Signature` field and cli
 add their phone number. One-time codes are sent by SMS.
 
 .. image:: sign/final-validation.png
-   :align: center
    :alt: fill in your phone number for final validation
 
 .. note::
@@ -140,18 +138,18 @@ add their phone number. One-time codes are sent by SMS.
 Itsme®
 ~~~~~~
 
-Go to :menuselection:`Sign --> Configuration --> Settings` and enable :guilabel:`Identify with
-itsme®`.
+Itsme® authentication can be used to allow signatories to provide their identity using itsme®.
 
-Then, go to :menuselection:`Sign --> Configuration --> Roles`. Click in the :guilabel:`Extra
-Authentication Step` column for the role, and select :guilabel:`Via itsme®`.
+The feature is enabled by default in :guilabel:`Sign Settings` and applies automatically to the
+:guilabel:`Customer (identified with itsme®)` role. To enable it for other roles, go to
+:menuselection:`Sign --> Configuration --> Roles`. Click in the :guilabel:`Extra Authentication
+Step` column for the role, and select :guilabel:`Via itsme®`.
 
 Go to the document that needs to be signed and add the :guilabel:`Signature` field. Switch the role
 to :guilabel:`customer (identified with itsme®)`, and click :guilabel:`Validate`, and
 :guilabel:`Send`.
 
 .. image:: sign/itsme-identification.png
-   :align: center
    :alt: select customer identified with itsme®
 
 The person signing the document fills in the :guilabel:`Signature` field and clicks
@@ -161,10 +159,26 @@ person must authenticate with itsme®.
 .. note::
    This feature is only available in Belgium and the Netherlands.
 
+Signatory hash
+==============
+
+Each time someone signs a document, a hash - a unique ID number - is generated to ensure
+traceability.
+
+A visual security frame displaying the beginning of the hash is added to the signatures. Internal
+users can choose to hide or show it by disabling or enabling the :guilabel:`Frame` option when
+signing the document.
+
+.. image:: sign/sign-hash.png
+   :alt: Adding the visual security frame to a signature.
+
 .. _sign/field-types:
 
-Field Types
-===========
+Configuration
+=============
+
+Field types
+-----------
 
 Various field types can be used to sign documents (placeholder, autocompletion, ...). By configuring
 your own field types, also known as signature item types, the signing process can be even faster for
@@ -213,20 +227,45 @@ the field before it is completed.
    :align: center
    :alt: Tip and placeholder example in Odoo Sign
 
-Signatory hash
-==============
+Tags
+----
 
-A :guilabel:`hash` can be added to a document that is shared (attached to an email or printed, for
-example) to indicate that the signature is electronic and that there is some traceability behind
-it. The :guilabel:`hash` corresponds to a unique ID number related to the signed document.
+Tags can be used to categorize and organize documents, and allow users to easily search for and
+filter documents based on specific criteria.
 
-If you are an :doc:`internal user <../general/users/manage_users>`,
-you can choose to tick or untick the frame option when signing the document. Tick the box to have
-the frame and hash visible.
+You can manage tags by going to :menuselection:`Configuration --> Tags`. To create a tag, click
+:guilabel:`New`. On the new line, add the :guilabel:`Tag Name` and select a :guilabel:`Color Index`
+for your tag.
 
-.. image:: sign/sign-hash.png
-   :align: center
-   :alt: Add a hash to your document
+To apply a tag to a document, use the dropdown list available in your document.
 
-.. note::
-   The :guilabel:`hash` is only applicable to the signature field.
+Sign order
+----------
+
+When a document needs to be signed by different parties, the signing order lets you control the
+order in which your recipients receive it for signature.
+
+By going to :menuselection:`Configuration --> Settings`, you can :guilabel:`Enable Signing Order`.
+Each recipient receives the signature request notification only once the previous recipient has
+completed their action.
+
+Add at least two :guilabel:`Signature` fields with different roles to your document. Click
+:guilabel:`Send`, go to the :guilabel:`Options` tab, and tick the :guilabel:`Specify signing order`
+box.
+
+Add the signer's :guilabel:`Name or email` information. You can decide the :guilabel:`Sign Order` by
+typing :guilabel:`1` or :guilabel:`2` in the :guilabel:`Sign Order` column.
+
+.. seealso::
+
+   `Odoo Quick Tips: Sign order <https://www.youtube.com/watch?v=2KUq7RPt1cU/>`_
+
+Expiration and reminders
+------------------------
+
+You can set a **validity date** for your document or send **automatic email reminders** to obtain
+signature on time.
+
+From your dashboard, click :guilabel:`Send` on the document you want to send. A page pops up. Go to
+the :guilabel:`Options` tab and to the :guilabel:`Expiration & Reminders` section. From there, fill
+in the :guilabel:`Valid Until` field and decide how often reminders are sent out.
