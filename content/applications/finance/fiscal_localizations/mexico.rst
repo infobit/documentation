@@ -463,7 +463,7 @@ Landed Costs`. There you will find the option to attach the Pedimentos number.
    with the transfer(s).
 
    .. seealso::
-      :doc:`/applications/inventory_and_mrp/inventory/management/reporting/integrating_landed_costs`.
+      :doc:`/applications/inventory_and_mrp/inventory/warehouses_storage/inventory_valuation/integrating_landed_costs`
 
 Payment Terms
 ~~~~~~~~~~~~~

@@ -13,12 +13,10 @@ advanced routes like drop-shipping, cross-docks, etc.
 
 .. seealso::
    - `Odoo Tutorials: Inventory <https://www.odoo.com/slides/inventory-24>`_
-   - `Odoo Tutorials: Barcode Scanner <https://www.odoo.com/slides/barcode-30>`_
 
 .. toctree::
    :titlesonly:
 
-   inventory/management
-   inventory/shipping
-   inventory/routes
-   inventory/barcode
+   inventory/product_management
+   inventory/warehouses_storage
+   inventory/shipping_receiving

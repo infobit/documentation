@@ -3,7 +3,7 @@ Inventory average price valuation
 =================================
 
 As stated in the :doc:`inventory valuation page
-</applications/inventory_and_mrp/inventory/management/reporting/inventory_valuation_config>`,
+</applications/inventory_and_mrp/inventory/warehouses_storage/inventory_valuation/inventory_valuation_config>`,
 one of the possible costing method you can use in perpetual stock
 valuation, is the average cost.
 
