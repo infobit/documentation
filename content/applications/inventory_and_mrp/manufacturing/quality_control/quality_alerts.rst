@@ -2,6 +2,8 @@
 Create quality alerts
 =====================
 
+.. _manufacturing/quality_control/quality-alerts:
+
 Configuring quality control points is a great way to ensure that quality checks are performed at
 routine stages during specific operations. However, quality issues can often appear outside of these
 scheduled checks. Using Odoo *Quality*, users can create quality alerts for issues that are not
