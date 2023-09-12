@@ -4,64 +4,68 @@ Set up your barcode scanner
 
 .. _barcode/setup/hardware:
 
-Getting started with barcode scanning in Odoo is fairly easy. Yet, a
-good user experience relies on an appropriate hardware setup. This guide
-will help you through the task of choosing and configuring the barcode
-scanner.
+Follow this guide to choose and set up a barcode scanner compatible with Odoo's *Inventory* and
+*Barcode* apps.
 
-Find the barcode scanner that suits your needs
-==============================================
+.. image:: hardware/barcode-scanner.png
+   :align: center
+   :alt: An image of an example barcode scanner.
 
-The 3 recommended type of barcode scanners to work with the Odoo
-**Inventory** and **Barcode Scanning** apps are the **USB scanner**, **the bluetooth
-scanner** and the **mobile computer scanner**.
+Scanner types
+=============
 
-.. image:: hardware/hardware02.png
-    :align: center
+To determine which barcode scanner is most compatible with Odoo and the business' needs, refer to
+the following section:
 
--   If you scan products at a computer location, the **USB scanner** is the
-    way to go. Simply plug it in the computer to start scanning. Just
-    make sure when you buy it that the scanner is compatible with
-    your keyboard layout or can be configured to be so.
+- **USB scanners** are connected to a computer and are suitable for businesses that scan products at
+  a fixed location, like at the checkout in a grocery store. Ensure the chosen USB scanner is
+  compatible with the keyboard layout of the computer.
 
--   The **bluetooth scanner** can be paired with a smartphone or a tablet and
-    is a good choice if you want to be mobile but don't need a big
-    investment. An approach is to log in Odoo on you smartphone, pair
-    the bluetooth scanner with the smartphone and work in the
-    warehouse with the possibility to check your smartphone
-    from time to time and use the software 'manually'.
+- **Bluetooth scanners** pair with a smartphone or tablet, making them an ideal cost-effective and
+  portable barcode scanner option. In this scenario, Odoo is installed on the smartphone, allowing
+  warehouse operators to handle operations and check stock directly through their mobile devices.
 
--   For heavy use, the **mobile computer scanner** is the handiest solution.
-    It consists of a small computer with a built-in barcode scanner.
-    This one can turn out to be a very productive solution, however
-    you need to make sure that is is capable of running Odoo smoothly.
-    The most recent models using Android + Google Chrome or Windows +
-    Internet Explorer Mobile should do the job. However, due to the
-    variety of models and configurations on the market, it is
-    essential to test it first.
+- **Mobile computer scanners** are mobile devices with a built-in barcode scanner. Ensure the device
+  can run the Odoo mobile app properly, and recent models that use Android OS with the Google Chrome
+  browser or Windows OS with Internet Explorer Mobile should work. However, testing is crucial due
+  to the variety of available models and configurations.
 
-Configure your barcode scanner
-==============================
+Configuration
+=============
+
+When setting up the barcode scanner, ensure the following configurations are correctly set to ensure
+the scanner can interpret barcodes properly in Odoo.
 
 Keyboard layout
 ---------------
 
-.. image:: hardware/hardware01.png
-    :align: center
-
-An USB barcode scanner needs to be configured to use the same keyboard
-layout as your operating system. Otherwise, your scanner won't translate
-characters correctly (replacing a 'A' with a 'Q' for example). Most
-scanners are configured by scanning the appropriate barcode in the user
-manual.
+When using a USB barcode scanner, match its keyboard layout with the operating system's layout for
+proper interpretation of characters. To configure the keyboard layout, scan the keyboard wedge
+barcode in the user manual for corresponding to the barcode scanner.
 
 Automatic carriage return
 -------------------------
 
-By default, Odoo has a 50 milliseconds delay between each successive
-scan (it helps avoid accidental double scanning). If you want to
-suppress this delay, you can configure your scanner to insert a carriage
-return at the end of each barcode. This is usually the default
-configuration and can be explicitly configured by scanning a specific
-barcode in the user manual ('CR suffix ON', 'Apply Enter for suffix',
-etc.).
+Odoo has a default 50-millisecond delay between scans to prevent accidental double scanning. To
+remove this delay, configure the scanner to add a carriage return at the end of each barcode.
+Typically, this is the default setting and can be explicitly set by scanning a specific barcode in
+the user manual, like 'CR suffix ON' or 'Apply Enter for suffix.'
+
+Zebra scanner
+-------------
+
+When using Zebra scanners, ensure the correct keystroke configurations are set to prevent errors:
+
+Begin on the Zebra scanner's home screen and select the :guilabel:`DataWedge` app (the icon for the
+app is a light blue barcode). In the :guilabel:`DataWedge Profiles` page, select the profile option
+to access the Zebra scanner's settings.
+
+Scroll down to the :guilabel:`Keyboard Output` option and ensure the option
+:guilabel:`Enable/disable keystroke output` is :guilabel:`Enabled`.
+
+.. image:: hardware/enable-keystroke.png
+   :align: center
+   :alt: Show keystroke option in the Zebra scanner's DataWedge app.
+
+Now, go back to the :guilabel:`Profile` options page and select :guilabel:`Key event options`. Here,
+ensure the :guilabel:`Send Characters as Events` option is checked.
