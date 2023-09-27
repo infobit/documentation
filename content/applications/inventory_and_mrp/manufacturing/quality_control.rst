@@ -9,3 +9,4 @@ Quality control
 
    quality_control/quality_control_points
    quality_control/quality_alerts
+   quality_control/picture_check
