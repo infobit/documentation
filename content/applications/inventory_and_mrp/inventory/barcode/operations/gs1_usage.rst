@@ -15,7 +15,7 @@ The following sections contain examples of how Odoo uses GS1 barcodes provided b
 identify common warehouse items and automate certain warehouse workflows.
 
 .. important::
-   Odoo **does not** create GS1 barcodes. Businesses must provide a unique Global Trade Item Number
+   Odoo **does not** create GS1 barcodes. Businesses must purchase a unique Global Trade Item Number
    (GTIN) from GS1. Then, they can combine their existing GS1 barcodes with product and supply chain
    information (also provided by GS1) to create barcodes in Odoo.
 
@@ -25,7 +25,7 @@ identify common warehouse items and automate certain warehouse workflows.
 
 .. _barcode/operations/gs1-lots:
 
-Product + quantity + lot
+Configure barcodes for product, quantity, and lots
 ========================
 
 To build a GS1 barcode for a box that contains a product, number of units in it, and the lot number,
@@ -86,7 +86,7 @@ that is provided by GS1.
 
 .. _barcode/operations/lot-setup-on-product:
 
-After activating lots and serial number tracking in the settings page, specify that this feature is
+After activating tracking by lots and serial numbers from the settings page, specify that this feature is
 to be applied on each product by navigating to the :guilabel:`Inventory` tab on the product form.
 Under :guilabel:`Tracking`, choose the :guilabel:`By Lots` radio button.
 
@@ -102,7 +102,7 @@ operation, navigate to the :menuselection:`Barcode` app to manage the :ref:`rece
 <barcode/operations/scan-received-products>`.
 
 From the :guilabel:`Barcode Scanning` dashboard, click the :guilabel:`Operations` button, then the
-:guilabel:`Receipts` button to view the list of vendor receptions to process. Receipts generated
+:guilabel:`Receipts` button to view the list of vendor receipts to process. Receipts generated
 from :abbr:`POs (Purchase Orders)` are listed, but new receipt operations can also be created
 directly through the :menuselection:`Barcode` app using the :guilabel:`Create` button.
 
@@ -153,7 +153,7 @@ numbers.
 
 .. _barcode/operations/quantity-ex:
 
-Product + non-unit quantity
+Configure barcode for product and non-unit quantity
 ===========================
 
 To build a GS1 barcode that contains products measured in a non-unit quantity, like kilograms, for

@@ -50,7 +50,7 @@ along with the corresponding :guilabel:`Barcode Pattern`.
 
 .. _barcode/operations/create-GS1-barcode:
 
-Use GS1 barcode in Odoo
+Use GS1 barcodes in Odoo
 =======================
 
 For product identification using GS1 barcodes in Odoo, businesses obtain a `unique GTIN
@@ -65,7 +65,7 @@ universally indicates what kind of information the barcode contains. Odoo follow
 identifying information, as detailed in the :ref:`default GS1 rules list
 <barcode/operations/default-gs1-nomenclature-list>`. Including the relevant |AI| from the list
 enables Odoo to correctly interpret GS1 barcodes. While most barcode patterns have a fixed
-length requirements, certain ones, such as lots and serial numbers, have flexible length.
+length requirement, certain ones, such as lots and serial numbers, have flexible length.
 
 .. tip::
    When using a flexible length barcode pattern, and the barcode is not placed at the end of the GS1
@@ -137,7 +137,7 @@ not working as expected:
    <barcode/operations/create-new-rules>` details how to add new rules in the barcode nomenclature.
 
 #. Test barcodes containing multiple encoded fields, piece by piece to figure out which field is
-   causing the issue
+   causing the issue.
 
    .. example::
       When testing a barcode containing the |GTIN|, lot number, and quantity, start by scanning the
