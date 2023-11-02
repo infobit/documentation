@@ -242,6 +242,13 @@ journal.
 
 .. _belgium/einvoicing:
 
+Codabox
+-------
+Codabox is a service for Belgian fiduciaries that manage clients and want to access their bank
+and payroll statements for instance. Odoo provides a way to import these statements automatically.
+As a fiduciary that manages multiple clients, on multiple databases, you can configure the
+
+
 Electronic invoicing
 ====================
 
