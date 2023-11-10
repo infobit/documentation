@@ -1,5 +1,5 @@
 # Makefile for Sphinx documentation
-#
+
 # Pass WORKERS=1 for single-worker build
 ifndef WORKERS
   WORKERS = auto
