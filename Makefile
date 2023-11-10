@@ -6,12 +6,21 @@ ifndef WORKERS
 endif
 
 ifndef BUILD_DIR
-  BUILD_DIR    = _build
+  BUILD_DIR    = /var/www
 endif
 
 ifndef CURRENT_LANG
   CURRENT_LANG = en
 endif
+
+ifndef LANGUAGES
+  LANGUAGES = en,es
+endif
+
+ifndef IS_REMOTE_BUILD
+  IS_REMOTE_BUILD = True
+endif
+
 
 SPHINX_BUILD   = sphinx-build
 CONFIG_DIR     = .
