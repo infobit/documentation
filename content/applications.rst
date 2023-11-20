@@ -18,8 +18,8 @@ Discover our user guides and configuration tutorials per application.
     applications/sales
     applications/websites
     applications/inventory_and_mrp
-    applications/hr
+    
     applications/marketing
     applications/services
-    applications/productivity
+
     applications/general
