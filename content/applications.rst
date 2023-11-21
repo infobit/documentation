@@ -8,7 +8,8 @@
 User Docs
 =========
 
-Discover our user guides and configuration tutorials per application.
+IMPORTANTE: el contenido es esta ayuda en línea puede variar en función del tipo de instalación, módulos instalados o versión de Odoo.
+
 
 
 .. toctree::
