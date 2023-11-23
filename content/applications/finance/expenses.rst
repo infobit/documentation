@@ -8,8 +8,6 @@ Odoo **Expenses** streamlines the management of expenses.  After an employee sub
 in Odoo, the expenses are reviewed by management and accounting teams. Once approved, payments can
 then be processed and disbursed back to the employee for reimbursement(s).
 
-.. seealso::
-   `Odoo Expenses: product page <https://www.odoo.com/app/expenses>`_
 
 Set expense types
 =================

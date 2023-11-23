@@ -7,8 +7,6 @@ Documents
 You can upload any type of file (max 64MB per file on Odoo Online), and organize them in various
 workspaces.
 
-.. seealso::
-   - `Odoo Documents: product page <https://www.odoo.com/app/documents>`_
 
 Workflow actions
 ================

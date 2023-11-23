@@ -11,8 +11,7 @@ and manage payments.
 development with features such as AI-powered invoice recognition, synchronization with your bank
 accounts, smart matching suggestions, etc.
 
-.. seealso::
-   `Odoo Tutorials: Accounting <https://www.odoo.com/slides/accounting-19>`_
+
 
 .. cards::
 

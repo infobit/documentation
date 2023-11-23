@@ -54,8 +54,10 @@ msgid ""
 "Discover our guide to help you use and configure the platform, by "
 "applications."
 msgstr ""
-"Descubra nuestra guía que le ayudará a usar y configurar su plataforma. La "
-"guía está separada por aplicación."
+"MPORTANTE: el contenido de esta ayuda en línea puede variar en función del tipo"
+"de instalación, módulos instalados o versión de Odoo. Algunas de las App’s o"
+"funciones que se describen requieren la contratación o el pago de servicios"
+"adicionales o pueden no ser compatibles con su instalación."
 
 #: ../../extensions/odoo_theme/layout_templates/homepage.html:10
 msgid "Top Apps"
