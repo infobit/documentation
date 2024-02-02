@@ -10,7 +10,7 @@ Datasheet
 
 Odoo es un conjunto de aplicaciones de código abierto que cumnple con la normativa española actual y cubre todas las necesidades de tu empresa: CRM, Factura electtrónica, comercio electrónico, contabilidad, inventario, punto de venta, gestión de proyectos, gestión de procesos, etc.
 
-La propuesta única de valor de Odoo es ser muy fácil de usar y totalmente integrado.
+
 
 
 
@@ -18,3 +18,4 @@ La propuesta única de valor de Odoo es ser muy fácil de usar y totalmente inte
     :maxdepth: 2
 
     datasheet/efactura
+    datasheet/procesos

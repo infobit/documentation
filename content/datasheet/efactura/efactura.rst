@@ -1,7 +1,7 @@
 :nosearch:
 
 ====================
-Factura electrónica
+Factura electrónica.
 ====================
 
-Te juro que salen registros ilimitados.
+Te juro que salen registros ilimitados. No se imprime
