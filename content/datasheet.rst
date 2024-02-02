@@ -17,4 +17,4 @@ La propuesta única de valor de Odoo es ser muy fácil de usar y totalmente inte
 .. toctree::
     :maxdepth: 2
 
-    datasheet/datasheet
+    datasheet/efactura
