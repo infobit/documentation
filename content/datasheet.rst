@@ -8,8 +8,9 @@
 Datasheet
 =========
 
-IMPORTANTE: el contenido es esta ayuda en línea puede variar en función del tipo de instalación, módulos instalados o versión de Odoo.
-Algunas de las App's o funciones que se decriben requieren la contratación o el pago de servicios adicionales o pueden no ser compatibles con su instalación. 
+Odoo es un conjunto de aplicaciones de código abierto que cumnple con la normativa española actual y cubre todas las necesidades de tu empresa: CRM, Factura electtrónica, comercio electrónico, contabilidad, inventario, punto de venta, gestión de proyectos, gestión de procesos, etc.
+
+La propuesta única de valor de Odoo es ser muy fácil de usar y totalmente integrado.
 
 
 
