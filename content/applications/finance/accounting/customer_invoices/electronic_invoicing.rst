@@ -3,7 +3,7 @@ Electronic invoicing
 ====================
 
 Odoo es compatible con múltiples flujos de trabajo de facturación y pago, 
-puede elegir y usar los que satisfagan las necesidades de su negocio. 
+puede elegir y usar los que satisfagan las necesidades de su negocio.
 
 Como en el resto de módulos, en Odoo no existe límite en la creación de registros de clientes,
 proveedores, artículos, facturas, etc.
