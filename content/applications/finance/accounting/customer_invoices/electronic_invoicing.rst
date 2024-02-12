@@ -1,6 +1,30 @@
-================================================================
-Electronic invoicing (:abbr:`EDI (electronic data interchange)`)
-================================================================
+====================
+Electronic invoicing 
+====================
+
+Odoo es compatible con múltiples flujos de trabajo de facturación y pago, 
+puede elegir y usar los que satisfagan las necesidades de su negocio. 
+
+Como en el resto de módulos, en Odoo no existe límite en la creación de registros de clientes,
+proveedores, artículos, facturas, etc.
+
+Normativa legal
+===============
+Adaptada la normativa vigente española y al reglamento por el que se regulan las obligaciones de facturación. 
+Este Reglamento establece las normas que deben cumplir obligatoriamente las facturas, tanto en papel como electrónicas.
+
+Facturas en formato estructurado
+================================
+Pueden ser generadas automáticamente por Odoo y ser tramitadas de forma igualmente automatizada por los sistemas informáticos
+de pago y contabilidad del receptor.
+
+Mensaje XML del CEFACT/ONU de factura aplicable a toda la industria tal como se especifica en los esquemas XML 16B (SCRDM — CII). 
+Mensajes UBL de factura y nota de crédito tal como se definen en la norma ISO/IEC 19845:2015.
+Mensaje EDIFACT de factura de acuerdo con la norma ISO 9735. 
+Mensaje Facturae, en la versión para facturación entre empresarios y profesionales vigente en cada momento. 
+
+EDI
+===
 
 EDI, or electronic data interchange, is the inter-company communication of business documents, such
 as purchase orders and invoices, in a standard format. Sending documents according to an EDI
