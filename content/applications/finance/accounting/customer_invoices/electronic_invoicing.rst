@@ -10,6 +10,7 @@ proveedores, artículos, facturas, etc.
 
 Normativa legal
 ===============
+
 Adaptada la normativa vigente española y al reglamento por el que se regulan las obligaciones de facturación. 
 Este Reglamento establece las normas que deben cumplir obligatoriamente las facturas, tanto en papel como electrónicas.
 
